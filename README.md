@@ -22,6 +22,7 @@ One last requirement is the **Environment Variables**. To avoid stuffing credent
  - netbox_url
  - phpipam_api_token
  - phpipam_url
+ 
 Make sure to add the URLs **without / at the end**. 
 
 Afterwards, the script is ready to roll. Today, it supports the migration of VRFs, VLANs, L2 Domains (as VLAN Groups), Prefixes and IP Addresses. 
