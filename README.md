@@ -12,6 +12,7 @@ You need the following Python packages:
  - slugify
 
 You can install them all via pip:
+
 *pip install pynetbox requests pandas slugify*
 
 You also need to create a **PHPIPAM API APP**. That's how PHPIPAM programs its API interaction. I created the "netboxmig" app, and a PHPIPAM username with the same name. In this case, the password of the user is the same as the API KEY.
@@ -25,3 +26,6 @@ Make sure to add the URLs **without / at the end**.
 
 Afterwards, the script is ready to roll. Today, it supports the migration of VRFs, VLANs, L2 Domains (as VLAN Groups), Prefixes and IP Addresses. 
 
+## Contribution
+
+I believe the script can be more efficient, but i'm no Python Ninja, so feel free to suggest changes, fork it, whatever.
